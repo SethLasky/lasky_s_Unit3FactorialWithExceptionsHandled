@@ -14,8 +14,8 @@ public class factorialFunction
       {
         System.out.println("Enter a whole number");
         number = console.nextInt();
-        n = number;
-        z = n;
+        n = number - 1;
+        z = number;
         do
         {          
           z = z * n;
