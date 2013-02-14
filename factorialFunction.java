@@ -24,8 +24,7 @@ public class factorialFunction
         while(n != 0);
         if (number >= 0)
         {
-          throw new NegNumberException();
-          f = true;
+          throw new NegNumberException();          
         }
         System.out.println("The factorial of " + number + " is " + z);
         
@@ -33,6 +32,7 @@ public class factorialFunction
       catch(NegNumberException a)
       {
         System.out.println(a.toString());
+        f = true;
       }
       catch(InputMismatchException b)
       {

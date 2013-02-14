@@ -7,7 +7,7 @@ public class NegNumberException extends Exception
   
   public NegNumberException(String message)
   {
-    super(message)
+    super(message);
   }
 }
   
