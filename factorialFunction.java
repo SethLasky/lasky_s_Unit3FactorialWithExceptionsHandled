@@ -22,7 +22,7 @@ public class factorialFunction
           n = n - 1;         
         }        
         while(n != 0);
-        if (number >= 0)
+        if (number <= 0)
         {
           throw new NegNumberException();          
         }
