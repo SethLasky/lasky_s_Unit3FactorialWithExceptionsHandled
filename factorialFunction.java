@@ -1,3 +1,4 @@
+import java.util.*;
 public class factorialFunction
 {
   static Scanner console = new Scanner(System.in);
@@ -40,3 +41,4 @@ public class factorialFunction
     }
     while(!f);
   }
+}
